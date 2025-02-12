@@ -1,9 +1,11 @@
-export default function AboutLayout({ children }) {
-    return (
-      <div>
-        <h1>About Layout</h1>
-        {children}
-        222
-      </div>
-    );
-  }
+export default function AboutLayout({ children }: {
+  children: React.ReactNode
+}) {
+  return (
+    <div>
+      <h1>About Layout</h1>
+      {children}
+      222
+    </div>
+  );
+}
